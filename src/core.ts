@@ -17,6 +17,7 @@ import { SkyRadioModule } from './modules/radio';
 import { SkyRepeaterModule } from './modules/repeater';
 import { SkyTabsModule } from './modules/tabs';
 import { SkyTilesModule } from './modules/tiles';
+import { SkyListViewRepeaterModule } from './modules/list-view-repeater';
 import { SkySpinnerModule } from './modules/spinner';
 
 @NgModule({
@@ -37,6 +38,7 @@ import { SkySpinnerModule } from './modules/spinner';
     SkyRepeaterModule,
     SkyTabsModule,
     SkyTilesModule
+    SkyListViewRepeaterModule,
     SkySpinnerModule
   ]
 })
@@ -58,6 +60,7 @@ export * from './modules/repeater';
 export * from './modules/tabs';
 export * from './modules/tiles';
 export * from './modules/format';
+export * from './modules/list-view-repeater';
 export * from './modules/spinner';
 
 export const SKY_PROVIDERS: any[] = [
